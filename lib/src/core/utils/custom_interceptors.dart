@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:tech_labs_task/src/data/sources/local/shared_preferences_keys.dart';
@@ -51,11 +52,16 @@ class CustomInterceptors extends InterceptorsWrapper {
   Future<String> getAccessToken() async {
     final url =
         'https://login.microsoftonline.com/6960921c-9555-4fa0-ae99-2b5a385deedc/oauth2/v2.0/token';
+    String grantType = dotenv.env['GRANT_TYPE']!;
+    String clientId = dotenv.env['CLIENT_ID']!;
+    String clientSecret = dotenv.env['CLIENT_SECRET']!;
+    String scope = dotenv.env['SCOPE']!;
+
     final body = {
-      'grant_type': 'client_credentials',
-      'client_id': 'cefdd43b-ca9d-4043-9285-9b9006c48f24',
-      'client_secret': 'MVh8Q~MZWuW0IVTDJMq1yJP8npKZiQtraxvsNaEL',
-      'scope': 'https://ititasks.api.crm11.dynamics.com/.default',
+      'grant_type': grantType,
+      'client_id': clientId,
+      'client_secret': clientSecret,
+      'scope': scope,
     };
 
     final response = await http.post(Uri.parse(url), body: body);

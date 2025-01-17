@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:tech_labs_task/generated/l10n.dart';
 import 'package:tech_labs_task/src/config/route/routes_manager.dart';
@@ -23,6 +24,10 @@ Future<void> main() async {
 Future<void> _init() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initializeDependencies();
+  await dotenv.load(
+    fileName: ".env",
+  );
+
   Bloc.observer = const MainBlocObserver();
 }
 
