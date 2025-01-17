@@ -1,0 +1,42 @@
+{
+  "startScreenMessage": "Impactful Innovation, Rapidly Deployed",
+  "buildYourTailoredSolutionsForYourIndustry": "Build your Tailored Solutions\nfor your Industry.",
+  "start": "Start",
+  "digitalTransformation": "Digital Transformation",
+  "digitalTransformationShortDescription": "Transform your business with cutting-edge Microsoft technologies. From AI-powered solutions like Microsoft AI Copilot and Azure AI to custom development of web portals, cloud migration, and more, we help you leverage the power of technology to drive growth and innovation.",
+  "consultancyServices": "Consultancy Services",
+  "consultancyServicesShortDescription": "A wide range of consultancy services, whether it’s agile transformation, CRM consulting, project management, or process re-engineering",
+  "microsoftLicensingService": "Microsoft Licensing Service",
+  "microsoftLicensingServiceShortDescription": "As a Microsoft AI Cloud solution provider, TechLabs London can provide deeper customer engagement, offer increase support and billing services and offer industry specific solutions bundled with Microsoft products",
+  "skip": "Skip",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email",
+  "password": "Password",
+  "register": "Register",
+  "account": "Account",
+  "home": "Home",
+  "digitalTransformationSubTitle": "Transform your business with cutting-edge Microsoft technologies.",
+  "digitalTransformationDescription": "From AI-powered solutions like Microsoft AI Copilot and Azure AI to custom development of web portals, cloud migration, and systems integration, TechLabs London specialises in delivering tailored digital transformations that drive innovation and efficiency.",
+  "consultancyServicesSubTitle": "A wide range of consultancy services. ",
+  "consultancyServicesDescription": "whether it’s agile transformation, CRM consulting, project management, or process re-engineering, TechLabs London provides strategic guidance to optimize performance and accelerate growth.",
+  "profile": "Profile",
+  "notifications": "Notifications",
+  "changePassword": "Change Password",
+  "manageAccount": "Manage Account",
+  "personalInfo": "Personal Info",
+  "edit": "Edit",
+  "save": "Save",
+  "cancel": "Cancel",
+  "ourService": "Our Service",
+  "welcome": "Welcome,\n{name}",
+  "@welcome": {
+    "description": "Name of the user.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Hassan"
+      }
+    }
+  }
+}

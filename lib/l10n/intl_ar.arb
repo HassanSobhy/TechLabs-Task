@@ -1,0 +1,44 @@
+{
+  "startScreenMessage": "ابتكار مؤثر، يتم تنفيذه بسرعة",
+  "buildYourTailoredSolutionsForYourIndustry": "قم ببناء حلول مخصصة\nلصناعتك.",
+  "start": "ابدأ",
+  "digitalTransformation": "التحول الرقمي",
+  "digitalTransformationShortDescription": "حوّل أعمالك باستخدام تقنيات مايكروسوفت المتطورة. من الحلول المدعومة بالذكاء الاصطناعي مثل Microsoft AI Copilot وAzure AI إلى تطوير بوابات الويب المخصصة، والترحيل السحابي، والمزيد، نحن نساعدك على الاستفادة من قوة التكنولوجيا لتعزيز النمو والابتكار.",
+  "consultancyServices": "خدمات استشارية",
+  "consultancyServicesShortDescription": "مجموعة واسعة من الخدمات الاستشارية، سواء كانت تحويلية باستخدام منهجيات الأجايل، استشارات إدارة علاقات العملاء، إدارة المشاريع، أو إعادة هندسة العمليات.",
+  "microsoftLicensingService": "خدمة ترخيص مايكروسوفت",
+  "microsoftLicensingServiceShortDescription": "بصفتها مزود حلول سحابية مدعومة بالذكاء الاصطناعي من مايكروسوفت، تقدم TechLabs London تفاعلاً أعمق مع العملاء، ودعمًا متزايدًا وخدمات فواتير، بالإضافة إلى حلول صناعية مخصصة مدمجة مع منتجات مايكروسوفت.",
+  "skip": "تخطي",
+  "firstName": "الاسم الأول",
+  "lastName": "الاسم الأخير",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "register": "تسجيل",
+  "account": "الحساب",
+  "home": "الرئيسية",
+  "digitalTransformationSubTitle": "حوّل أعمالك باستخدام تقنيات مايكروسوفت المتطورة.",
+  "digitalTransformationDescription": "من الحلول المدعومة بالذكاء الاصطناعي مثل Microsoft AI Copilot وAzure AI إلى تطوير بوابات ويب مخصصة، والترحيل السحابي، وتكامل الأنظمة، تتخصص TechLabs London في تقديم التحولات الرقمية المصممة لتحفيز الابتكار والكفاءة.",
+  "consultancyServicesSubTitle": "مجموعة واسعة من الخدمات الاستشارية.",
+  "consultancyServicesDescription": "سواء كانت تحويلية باستخدام منهجيات الأجايل، استشارات إدارة علاقات العملاء، إدارة المشاريع، أو إعادة هندسة العمليات، تقدم TechLabs London إرشادًا استراتيجيًا لتحسين الأداء وتسريع النمو.",
+  "profile": "الملف الشخصي",
+  "notifications": "الإشعارات",
+  "changePassword": "تغيير كلمة المرور",
+  "manageAccount": "إدارة الحساب",
+  "personalInfo": "المعلومات الشخصية",
+  "edit": "تعديل",
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "ourService": "خدماتنا",
+  "welcome": "مرحبا, \n{name}",
+  "@welcome": {
+    "description": "Name of the user.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Hassan"
+      }
+    }
+  }
+
+
+}
